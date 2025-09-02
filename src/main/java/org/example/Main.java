@@ -32,6 +32,7 @@ public class Main extends ListenerAdapter
         stripeLinks.put("150 ISPS", "https://buy.stripe.com/5kAcQH79pdQ10RWdRE");
         stripeLinks.put("200 ISPS", "https://buy.stripe.com/fZe8AralB7rD8ko00P");
         stripeLinks.put("254 ISPS", "https://buy.stripe.com/3cseYP1P59zL8ko8xm");
+        stripeLinks.put("Residentials", "https://buy.stripe.com/aEUaIz2T98vHbwAaFw");
     }
 
     public static void main(String[] args) throws LoginException, InterruptedException
@@ -91,6 +92,7 @@ public class Main extends ListenerAdapter
                 .addOption("150 ISPS", "150 ISPS")
                 .addOption("200 ISPS", "200 ISPS")
                 .addOption("254 ISPS", "254 ISPS")
+                .addOption("Residentials", "Residentials")
                 .build();
 
         event.reply("Select a product below:")
